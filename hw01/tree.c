@@ -2,11 +2,6 @@
 
 int main() {
 
-    printf("Hello world!\n\n");
-    printf("Let's\n"
-           "   go\n"
-           "     to walk\n\n");
-
     printf("   *   \n"
            "  ***  \n"
            " ***** \n"
