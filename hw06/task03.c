@@ -38,7 +38,7 @@ int main() {
     printf("Введите номер клетки:\n");
     scanf("%d", &n);
 
-    printf("%d\n", calculate_riсe(n));
+    printf("%llu\n", calculate_riсe(n));
 
     return 0;
 }

@@ -17,10 +17,10 @@ E2
 
 #include <stdio.h>
 
-int min(int *arr) {
+int min(int *arr, int arr_size) {
     int min = arr[0];
 
-    for (int i = 0; i < 5; i ++) {
+    for (int i = 0; i < arr_size; i ++) {
         if (arr[i] < min) {
             min = arr[i];
         }
@@ -29,7 +29,6 @@ int min(int *arr) {
     return min;
 }
 
-
 int main () {
     int n[5];
 
@@ -37,7 +36,7 @@ int main () {
         scanf("%d", &n[i]);
     }
 
-    printf("\n%d\n", min(n));
+    printf("\n%d\n", min(n, 5));
 
     return 0;
 }
