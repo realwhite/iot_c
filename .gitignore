@@ -3,3 +3,4 @@
 *_out.txt
 *.o
 hw11/app
+.DS_Store
